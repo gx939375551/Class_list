@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>课程表</title>
+    <link rel="stylesheet" type="text/css" href="timeClassTable.css">
+</head>
+
+<body>
+    <div class="timeClassTable">
+        <!--定义课程表的标题！-->
+        <div class="heading">
+            <h2>课程表</h2>
+        </div>
+        <!--END-->
+        <table class="t_1">
+            <thead>
+                <tr>
+                    <th class="cell" id="img_cell"></th>
+                    <th class="cell">星期一</th>
+                    <th class="cell">星期二</th>
+                    <th class="cell">星期三</th>
+                    <th class="cell">星期四</th>
+                    <th class="cell">星期五</th>
+                    <th class="cell">星期六</th>
+                    <th class="cell">星期日</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cell">第一节</td>
+                    <td class="cell_1">语文</td>
+                    <td class="cell_1">英语</td>
+                    <td class="cell_1">数学</td>
+                    <td class="cell_1">物理</td>
+                    <td class="cell_1">语文</td>
+                    <!--合并2列！7行！-->
+                    <td class="cell_2" colspan="2" rowspan="7">双休日</td>
+                    <!--END-->
+                </tr>
+                <tr>
+                    <td class="cell">第二节</td>
+                    <td class="cell_1">地理</td>
+                    <td class="cell_1">化学</td>
+                    <td class="cell_1">美术</td>
+                    <td class="cell_1">生物</td>
+                    <td class="cell_1">地理</td>
+                </tr>
+                <tr>
+                    <td class="cell">第三节</td>
+                    <td class="cell_1">数学</td>
+                    <td class="cell_1">生物</td>
+                    <td class="cell_1">化学</td>
+                    <td class="cell_1">历史</td>
+                    <td class="cell_1">体育</td>
+                </tr>
+                <!-- 合并6列！-->
+                <tr>
+                    <td class="cell_2" colspan="6">午休</td>
+                </tr>
+                <!--END-->
+                <tr>
+                    <td class="cell">第四节</td>
+                    <td class="cell_1">历史</td>
+                    <td class="cell_1">政治</td>
+                    <td class="cell_1">物理</td>
+                    <td class="cell_1">地理</td>
+                    <td class="cell_1">美术</td>
+                </tr>
+                <tr>
+                    <td class="cell">第五节</td>
+                    <td class="cell_1">生物</td>
+                    <td class="cell_1">体育</td>
+                    <td class="cell_1">数学</td>
+                    <td class="cell_1">物理</td>
+                    <td class="cell_1">美术</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
